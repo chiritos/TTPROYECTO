@@ -1,15 +1,15 @@
 package com.ipn.ttproyecto.UI.view.Activitys
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ipn.ttproyecto.R
 import com.ipn.ttproyecto.databinding.ActivityPersonSelectBinding
-import com.ipn.ttproyecto.databinding.ActivityUsuarioMainBinding
+
 
 class SelectPersonActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPersonSelectBinding
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,12 +18,12 @@ class SelectPersonActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnUser.setOnClickListener {
-
+            startActivity(Intent(this,InicioUserActivity::class.java))
         }
 
-        binding.btnUser.setOnClickListener {
-
+        binding.btnChofer.setOnClickListener {
+            startActivity(Intent(this,LoguinChoferActivity::class.java))
         }
-
     }
+
 }

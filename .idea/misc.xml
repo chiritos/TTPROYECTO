@@ -38,6 +38,18 @@
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/select_main.xml" value="0.2015625" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/menu/activity_usuario_main_drawer.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/menu/main_user.xml" value="0.2046875" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.136" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_inicio.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_loguin.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_chofer_registro.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_login_chofer.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_inicio.xml" value="0.152" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_login.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_loguin2.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.264" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.2" />
       </map>
     </option>
   </component>

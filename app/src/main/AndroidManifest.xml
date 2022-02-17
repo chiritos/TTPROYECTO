@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".UI.view.Activitys.InicioUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".UI.view.Activitys.MainUserActivity"
             android:exported="false"
             android:label="@string/title_activity_main_user"

@@ -14,11 +14,8 @@ private const val ARG_PARAM2 = "param2"
 
 class RegistroUserFragment : Fragment() {
 
-
     private var param1: String? = null
     private var param2: String? = null
-    internal lateinit var callback :OnCallFragmentRegistroListener
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +23,6 @@ class RegistroUserFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
-
     }
 
     override fun onCreateView(
@@ -34,16 +30,7 @@ class RegistroUserFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-
-        activity?.onBackPressed().let {
-            callback.removeFragment(this)
-        }
-
         return inflater.inflate(R.layout.fragment_usuario_registro, container, false)
-    }
-
-    fun setOnCallFragmentRegistroListener(callback: OnCallFragmentRegistroListener){
-        this.callback=callback
     }
 
     companion object {
@@ -55,10 +42,6 @@ class RegistroUserFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
         }
-    }
-
-    interface OnCallFragmentRegistroListener{
-        fun removeFragment(fragment:Fragment)
     }
 
 

@@ -5,17 +5,21 @@
       <map>
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/btn_theme.xml" value="0.3828125" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_circle.xml" value="0.1965" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_delete.xml" value="0.1965" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_menu_camera.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/side_nav_bar.xml" value="0.3828125" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/textinputrounded.xml" value="0.1365" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.18" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_loguin_chofer.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_loguin_user.xml" value="0.2015625" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.36666666666666664" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.18" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_select_person.xml" value="0.33" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_loguin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_inicio.xml" value="0.1286231884057971" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_loguin.xml" value="0.14" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_main.xml" value="0.25" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/app_bar_main_user.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/content_loguin.xml" value="0.2015625" />
@@ -27,13 +31,13 @@
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_alt_loguin.xml" value="0.33" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_alt_loguin.xml" value="0.12" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_inicio.xml" value="0.2" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_login.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_logininit.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_loguin2.xml" value="0.2" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.25" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.33" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.2" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.18" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/nav_header_main_user.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/select_main.xml" value="0.2015625" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/menu/activity_usuario_main_drawer.xml" value="0.33" />

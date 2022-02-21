@@ -10,21 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".UI.view.Activitys.InicioUserActivity"
+            android:name=".ui.view.Activitys.InicioUserActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.view.Activitys.MainUserActivity"
+            android:name=".ui.view.Activitys.MainUserActivity"
             android:exported="false"
             android:label="@string/title_activity_main_user"
             android:theme="@style/Theme.TTPROYECTO.NoActionBar" />
         <activity
-            android:name=".UI.view.Activitys.LoguinChoferActivity"
+            android:name=".ui.view.Activitys.LoguinChoferActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.view.Activitys.LoguinUserActivity"
+            android:name=".ui.view.Activitys.LoginUserActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.view.Activitys.SelectPersonActivity"
+            android:name=".ui.view.Activitys.SelectPersonActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

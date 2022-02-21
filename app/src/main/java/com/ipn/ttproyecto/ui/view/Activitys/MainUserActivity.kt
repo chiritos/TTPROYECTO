@@ -1,8 +1,7 @@
-package com.ipn.ttproyecto.UI.view.Activitys
+package com.ipn.ttproyecto.ui.view.Activitys
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration

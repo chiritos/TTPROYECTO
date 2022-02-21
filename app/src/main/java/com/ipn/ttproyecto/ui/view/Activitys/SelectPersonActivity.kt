@@ -1,9 +1,8 @@
-package com.ipn.ttproyecto.UI.view.Activitys
+package com.ipn.ttproyecto.ui.view.Activitys
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ipn.ttproyecto.R
 import com.ipn.ttproyecto.databinding.ActivityPersonSelectBinding
 
 

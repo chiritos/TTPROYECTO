@@ -1,4 +1,4 @@
-package com.ipn.ttproyecto.UI.view.Activitys
+package com.ipn.ttproyecto.ui.view.Activitys
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

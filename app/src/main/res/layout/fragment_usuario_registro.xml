@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -303,11 +304,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="15dp"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="2dp"
-                    android:paddingBottom="2dp"
-                    android:textSize="18dp"
+                    android:theme="@style/EstiloBotonGeneral"
                     android:text="Iniciar"
                     android:textColor="@color/color_text_btn"/>
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -315,12 +312,9 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:theme="@style/EstiloBotonGeneral"
                 android:background="@drawable/btn_theme"
                 android:layout_marginTop="20dp"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
                 android:text="Enviar Registro"
                 android:textColor="@color/color_text_btn"
                 app:layout_constraintEnd_toStartOf="@+id/guideline2"

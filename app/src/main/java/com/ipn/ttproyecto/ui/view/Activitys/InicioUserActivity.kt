@@ -1,16 +1,15 @@
-package com.ipn.ttproyecto.UI.view.Activitys
+package com.ipn.ttproyecto.ui.view.Activitys
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentTransaction
 import com.ipn.ttproyecto.R
-import com.ipn.ttproyecto.UI.view.Fragments.RegistroUserFragment
-import com.ipn.ttproyecto.UI.view.Fragments.ValidacionNumeroUserFragment
+import com.ipn.ttproyecto.ui.view.Fragments.RegistroUserFragment
+import com.ipn.ttproyecto.ui.view.Fragments.ValidacionNumeroUserFragment
 import com.ipn.ttproyecto.databinding.ActivityUsuarioInicioBinding
+import com.ipn.ttproyecto.ui.view.Interface.IManagerFragments
 
-class InicioUserActivity : AppCompatActivity() {
+class InicioUserActivity : AppCompatActivity(),IManagerFragments {
 
     private lateinit var binding: ActivityUsuarioInicioBinding
     private lateinit var currentFragment: Fragment
@@ -23,15 +22,27 @@ class InicioUserActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnSesionUsuario.setOnClickListener {
-            this.selectOptionUsuario(ValidacionNumeroUserFragment())
+            this.selectFragmentUser(ValidacionNumeroUserFragment())
         }
 
         binding.btnRegistrarUsuario.setOnClickListener {
-            this.selectOptionUsuario(RegistroUserFragment())
+            this.selectFragmentUser(RegistroUserFragment())
         }
     }
 
-    fun selectOptionUsuario(fragment: Fragment) {
+    override fun onAttachFragment(fragment: Fragment) {
+        currentFragment = fragment;
+    }
+
+    override fun onBackPressed(){
+        val countFragment = supportFragmentManager.backStackEntryCount
+        if ( countFragment >= 1)
+            this.removeFragment(currentFragment)
+        else
+            super.onBackPressed()
+    }
+
+    override fun selectFragmentUser(fragment: Fragment) {
         this.supportFragmentManager
             .beginTransaction()
             .add(R.id.content_usuario_inicio, fragment)
@@ -39,11 +50,7 @@ class InicioUserActivity : AppCompatActivity() {
             .commit()
     }
 
-    override fun onAttachFragment(fragment: Fragment) {
-        currentFragment = fragment;
-    }
-
-    private fun removeFragment(fragment: Fragment) {
+    override fun removeFragment(fragment: Fragment) {
 
         val manager = this.supportFragmentManager
         val transaction = manager.beginTransaction()
@@ -55,11 +62,4 @@ class InicioUserActivity : AppCompatActivity() {
             .popBackStack()
     }
 
-    override fun onBackPressed(){
-        val countFragment = supportFragmentManager.backStackEntryCount
-        if ( countFragment >= 1)
-            this.removeFragment(currentFragment)
-        else
-            super.onBackPressed()
-    }
 }

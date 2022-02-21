@@ -1,4 +1,4 @@
-package com.ipn.ttproyecto.UI.view.Fragments
+package com.ipn.ttproyecto.ui.view.Fragments
 
 import android.app.Dialog
 import android.content.DialogInterface

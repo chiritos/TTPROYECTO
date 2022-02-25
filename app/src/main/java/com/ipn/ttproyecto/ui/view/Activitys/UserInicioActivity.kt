@@ -9,7 +9,7 @@ import com.ipn.ttproyecto.ui.view.Fragments.ValidacionNumeroUserFragment
 import com.ipn.ttproyecto.databinding.ActivityUsuarioInicioBinding
 import com.ipn.ttproyecto.ui.view.Interface.IManagerFragments
 
-class InicioUserActivity : AppCompatActivity(),IManagerFragments {
+class UserInicioActivity : AppCompatActivity(),IManagerFragments {
 
     private lateinit var binding: ActivityUsuarioInicioBinding
     private lateinit var currentFragment: Fragment

@@ -61,33 +61,19 @@
                 android:textSize="25sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/appCompatTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="o"
-            android:textColor="@color/white"
-            android:textSize="35sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"
-            app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/btn_sesion_usuario" />
-
-
         <androidx.appcompat.widget.LinearLayoutCompat
             android:id="@+id/btn_registrar_usuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_theme"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:paddingLeft="40dp"
             android:paddingTop="5dp"
             android:paddingRight="40dp"
             android:paddingBottom="5dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/appCompatTextView">
+            app:layout_constraintTop_toBottomOf="@+id/btn_sesion_usuario">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"

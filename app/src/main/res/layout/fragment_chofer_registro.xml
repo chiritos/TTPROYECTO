@@ -66,18 +66,22 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_name"
                         android:layout_width="158dp"
+                        android:background="@drawable/textinputrounded"
+                        android:textColorHint="@color/black"
+                        android:hint="Nombre"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:background="@color/white"
-                        android:hint="Nombre" />
+                      />
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_lastnames"
-                        android:background="@color/white"
+                        android:background="@drawable/textinputrounded"
+                        android:textColorHint="@color/black"
+                        android:hint="Nombre"
                         android:inputType="text"
                         android:layout_width="158dp"
                         android:layout_height="wrap_content"
-                        android:hint="Apellidos"/>
+                      />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -104,9 +108,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_correo"
                     android:layout_width="321dp"
+                    android:background="@drawable/textinputrounded"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
-                    android:background="@color/white" />
+                     />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -131,7 +136,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_password"
-                    android:background="@color/white"
+                    android:background="@drawable/textinputrounded"
                     android:inputType="textPassword"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content" />
@@ -169,24 +174,27 @@
                         android:layout_width="50dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
-                        android:background="@color/white"
+                        android:background="@drawable/textinputrounded"
+                        android:textColorHint="@color/black"
                         android:hint="cp" />
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_calle"
-                        android:background="@color/white"
                         android:inputType="text"
                         android:layout_width="150dp"
                         android:layout_marginRight="10dp"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/textinputrounded"
+                        android:textColorHint="@color/black"
                         android:hint="calle y colonia"/>
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_municipio"
-                        android:background="@color/white"
                         android:inputType="text"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/textinputrounded"
+                        android:textColorHint="@color/black"
                         android:hint="municipio"/>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -214,7 +222,7 @@
                     android:id="@+id/txt_telefono"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
+                    android:background="@drawable/textinputrounded"
                     android:inputType="number"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -242,7 +250,7 @@
                     android:id="@+id/txt_rfc"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
+                    android:background="@drawable/textinputrounded"
                     android:inputType="text"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -269,7 +277,7 @@
                     android:id="@+id/txt_curp"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
+                    android:background="@drawable/textinputrounded"
                     android:inputType="text"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>

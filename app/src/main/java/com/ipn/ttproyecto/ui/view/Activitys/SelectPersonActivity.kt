@@ -17,11 +17,11 @@ class SelectPersonActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnUser.setOnClickListener {
-            startActivity(Intent(this,InicioUserActivity::class.java))
+            startActivity(Intent(this,UserInicioActivity::class.java))
         }
 
         binding.btnChofer.setOnClickListener {
-            startActivity(Intent(this,LoguinChoferActivity::class.java))
+            startActivity(Intent(this,ChoferLoguinActivity::class.java))
         }
     }
 

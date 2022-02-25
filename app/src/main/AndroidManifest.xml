@@ -10,18 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".ui.view.Activitys.InicioUserActivity"
+            android:name=".ui.view.Activitys.UserInicioActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.view.Activitys.MainUserActivity"
+            android:name=".ui.view.Activitys.UserMainActivity"
             android:exported="false"
-            android:label="@string/title_activity_main_user"
-            android:theme="@style/Theme.TTPROYECTO.NoActionBar" />
+            android:label="@string/title_activity_main_user" />
         <activity
-            android:name=".ui.view.Activitys.LoguinChoferActivity"
+            android:name=".ui.view.Activitys.ChoferLoguinActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.view.Activitys.LoginUserActivity"
+            android:name=".ui.view.Activitys.UserLoginActivity"
             android:exported="false" />
         <activity
             android:name=".ui.view.Activitys.SelectPersonActivity"

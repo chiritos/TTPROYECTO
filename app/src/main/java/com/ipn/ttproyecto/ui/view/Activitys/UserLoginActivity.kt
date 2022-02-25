@@ -1,5 +1,6 @@
 package com.ipn.ttproyecto.ui.view.Activitys
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +9,7 @@ import com.ipn.ttproyecto.databinding.ActivityUsuarioLoginBinding
 import com.ipn.ttproyecto.ui.view.Fragments.CodeSmsUserFragment
 import com.ipn.ttproyecto.ui.view.Interface.IManagerFragments
 
-class LoginUserActivity : AppCompatActivity(),IManagerFragments {
+class UserLoginActivity : AppCompatActivity(),IManagerFragments {
 
     private lateinit var binding:ActivityUsuarioLoginBinding
     private lateinit var currentFragment:Fragment
@@ -20,12 +21,16 @@ class LoginUserActivity : AppCompatActivity(),IManagerFragments {
         setContentView(binding.root)
 
         binding.btnLoginBiometrico.setOnClickListener {
-
+            startActivity(Intent(this,UserMainActivity::class.java))
         }
 
         binding.btnInitloginCode.setOnClickListener {
             this.selectFragmentUser(CodeSmsUserFragment())
         }
+    }
+
+    override fun onAttachFragment(fragment: Fragment) {
+        this.currentFragment=fragment
     }
 
     override fun selectFragmentUser(fragment: Fragment) {
@@ -46,5 +51,13 @@ class LoginUserActivity : AppCompatActivity(),IManagerFragments {
             .commit()
         manager
             .popBackStack()
+    }
+
+    override fun onBackPressed(){
+        val countFragment = supportFragmentManager.backStackEntryCount
+        if ( countFragment >= 1)
+            this.removeFragment(currentFragment)
+        else
+            super.onBackPressed()
     }
 }

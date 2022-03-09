@@ -28,10 +28,24 @@
         <item name="android:paddingRight">15dp</item>
         <item name="android:paddingBottom">2dp</item>
         <item name="android:paddingTop">2dp</item>
-        <item name="hintTextColor">@color/black</item>
         <item name="android:textColor">@color/color_text_btn</item>
         <item name="android:textSize">18dp</item>
     </style>
+
+    <style name="EstiloInputGeneral" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/color_texthint_input</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

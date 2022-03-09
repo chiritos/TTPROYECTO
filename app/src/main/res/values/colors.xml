@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="color_text_btn">#153F94</color>
+    <color name="color_texthint_input">#696868</color>
+    <color name="color_text_input">#404040</color>
+
 </resources>

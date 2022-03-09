@@ -5,61 +5,82 @@
       <map>
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/btn_theme.xml" value="0.3828125" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_circle.xml" value="0.1965" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_delete.xml" value="0.1965" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_menu_camera.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.3828125" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/side_nav_bar.xml" value="0.3828125" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/drawable/textinputrounded.xml" value="0.1365" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.18" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_loguin_chofer.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_loguin_user.xml" value="0.2015625" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.18" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_select_person.xml" value="0.33" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_inicio.xml" value="0.25" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_login.xml" value="0.18802083333333333" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_loguin.xml" value="0.14" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_loguin.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/activity_usuario_main.xml" value="0.25" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/app_bar_main_user.xml" value="0.22" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/app_bar_main_user.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/content_loguin.xml" value="0.2015625" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/content_main_user.xml" value="0.22" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/content_main_user.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_chofer_registro.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_deccion_user.xml" value="0.17806484295845998" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_recovery_cuenta.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_alt_loguin.xml" value="0.25" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_alt_loguin.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_inicio.xml" value="0.2" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_login.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_logininit.xml" value="0.36666666666666664" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_loguin2.xml" value="0.33" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_loguin2.xml" value="0.2" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.25" />
-        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.5" />
+        <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/nav_header_main_user.xml" value="0.36666666666666664" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/layout/select_main.xml" value="0.2015625" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/menu/activity_usuario_main_drawer.xml" value="0.33" />
         <entry key="..\:/Gerardo/Documentos/Android_Studio_Projects/ProyectosPropios/TTPROYECTO/app/src/main/res/menu/main_user.xml" value="0.2046875" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/drawable/btn_theme.xml" value="0.13" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/drawable/textinputrounded.xml" value="0.13" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_chofer_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.1" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_inicio.xml" value="0.1" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_login.xml" value="0.1" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/app_bar_chofer_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/app_bar_main_user.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/content_chofer_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_chofer_registro.xml" value="0.264" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_recovery_cuenta.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_loguin2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.264" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/nav_header_chofer_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/layout/nav_header_main_user.xml" value="0.22826086956521738" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/menu/activity_usuario_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/menu/chofer_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Gerardo/Documentos/ESCOM/Proyectos android/TTPROYECTO/app/src/main/res/menu/main_user.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_chofer_loguin.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_person_select.xml" value="0.136" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_inicio.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_login.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_loguin.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/activity_usuario_main.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_chofer_registro.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_gallery.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_home.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_login_chofer.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_alt_loguin.xml" value="0.2" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_inicio.xml" value="0.152" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_login.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_loguin2.xml" value="0.24048913043478262" />
-        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.264" />
+        <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_registro.xml" value="0.2" />
         <entry key="..\:/Users/gliji/Documents/Proyectos android/TTPROYECTO/app/src/main/res/layout/fragment_usuario_validacionnumero.xml" value="0.2" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

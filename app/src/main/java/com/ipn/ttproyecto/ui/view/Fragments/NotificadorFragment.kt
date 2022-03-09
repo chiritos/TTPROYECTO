@@ -7,7 +7,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import java.lang.IllegalStateException
 
-class NotificadorUserFragment : DialogFragment() {
+class NotificadorFragment : DialogFragment() {
 
     private var isTwoOption:Boolean = false
     private lateinit var mensaje:String

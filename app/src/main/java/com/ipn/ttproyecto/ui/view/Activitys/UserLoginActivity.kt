@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.ipn.ttproyecto.R
 import com.ipn.ttproyecto.databinding.ActivityUsuarioLoginBinding
-import com.ipn.ttproyecto.ui.view.Fragments.CodeSmsUserFragment
+import com.ipn.ttproyecto.ui.view.Fragments.UserCodeSmsFragment
 import com.ipn.ttproyecto.ui.view.Interface.IManagerFragments
 
 class UserLoginActivity : AppCompatActivity(),IManagerFragments {
@@ -25,7 +25,7 @@ class UserLoginActivity : AppCompatActivity(),IManagerFragments {
         }
 
         binding.btnInitloginCode.setOnClickListener {
-            this.selectFragmentUser(CodeSmsUserFragment())
+            this.selectFragmentUser(UserCodeSmsFragment())
         }
     }
 

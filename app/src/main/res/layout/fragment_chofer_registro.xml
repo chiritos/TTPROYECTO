@@ -66,8 +66,9 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_name"
                         android:layout_width="158dp"
+                        android:textColor="@color/color_text_input"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
                         android:hint="Nombre"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
@@ -76,8 +77,9 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_lastnames"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
-                        android:hint="Nombre"
+                        android:theme="@style/EstiloInputGeneral"
+                        android:textColor="@color/color_text_input"
+                        android:hint="Apellido"
                         android:inputType="text"
                         android:layout_width="158dp"
                         android:layout_height="wrap_content"
@@ -109,6 +111,9 @@
                     android:id="@+id/txt_correo"
                     android:layout_width="321dp"
                     android:background="@drawable/textinputrounded"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="Correo"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
                      />
@@ -137,6 +142,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_password"
                     android:background="@drawable/textinputrounded"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:hint="Contraseña"
+                    android:textColor="@color/color_text_input"
                     android:inputType="textPassword"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content" />
@@ -174,8 +182,10 @@
                         android:layout_width="50dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
+                        android:textColor="@color/color_text_input"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
+                        android:inputType="number"
                         android:hint="cp" />
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -184,8 +194,9 @@
                         android:layout_width="150dp"
                         android:layout_marginRight="10dp"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/color_text_input"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
                         android:hint="calle y colonia"/>
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -193,8 +204,9 @@
                         android:inputType="text"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/color_text_input"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
                         android:hint="municipio"/>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -223,6 +235,9 @@
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/textinputrounded"
+                    android:textColor="@color/color_text_input"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:hint="Telefono"
                     android:inputType="number"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -251,7 +266,10 @@
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/textinputrounded"
-                    android:inputType="text"/>
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="RFC"
+                    android:inputType="number"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -278,6 +296,9 @@
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/textinputrounded"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="CURP"
                     android:inputType="text"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>

@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.ipn.ttproyecto.R
 import com.ipn.ttproyecto.ui.view.Fragments.RegistroUserFragment
-import com.ipn.ttproyecto.ui.view.Fragments.ValidacionNumeroUserFragment
+import com.ipn.ttproyecto.ui.view.Fragments.UserValidacionNumeroFragment
 import com.ipn.ttproyecto.databinding.ActivityUsuarioInicioBinding
 import com.ipn.ttproyecto.ui.view.Interface.IManagerFragments
 
@@ -22,7 +22,7 @@ class UserInicioActivity : AppCompatActivity(),IManagerFragments {
         setContentView(binding.root)
 
         binding.btnSesionUsuario.setOnClickListener {
-            this.selectFragmentUser(ValidacionNumeroUserFragment())
+            this.selectFragmentUser(UserValidacionNumeroFragment())
         }
 
         binding.btnRegistrarUsuario.setOnClickListener {

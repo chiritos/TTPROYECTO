@@ -9,10 +9,10 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import com.ipn.ttproyecto.R
-import com.ipn.ttproyecto.ui.view.Activitys.UserMainActivity
+import com.ipn.ttproyecto.ui.view.Activitys.UserLoginActivity
 
+class UserValidacionNumeroFragment : Fragment() {
 
-class AltLoginUserFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,14 +22,14 @@ class AltLoginUserFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        val inflate = inflater.inflate(R.layout.fragment_usuario_validacionnumero, container, false)
+        val button_login=inflate.findViewById<TextView>(R.id.btn_continue_loguin)
 
-        val inflate = inflater.inflate(R.layout.fragment_usuario_loguin2, container, false)
-        val btn_sistema=inflate.findViewById<TextView>(R.id.btn_iniciar_sistema)
-
-        btn_sistema.setOnClickListener {
-            startActivity(Intent(this.context,UserMainActivity::class.java))
+        button_login.setOnClickListener {
+            startActivity(Intent(context,UserLoginActivity::class.java))
         }
 
         return inflate
     }
+
 }

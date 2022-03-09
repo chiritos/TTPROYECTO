@@ -44,8 +44,8 @@
                 android:id="@+id/input_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
                 android:orientation="vertical"
-                android:layout_marginTop="30dp"
 
                 app:layout_constraintStart_toStartOf="@+id/guideline"
                 app:layout_constraintTop_toBottomOf="@+id/ico_logo">
@@ -55,9 +55,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nombre completo"
+                    android:textColor="@color/white"
                     android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"/>
+                    android:textStyle="bold" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="wrap_content"
@@ -66,21 +66,23 @@
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_name"
-                        android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
                         android:layout_width="158dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:hint="Nombre" />
+                        android:background="@drawable/textinputrounded"
+                        android:textColor="@color/color_text_input"
+                        android:hint="Nombre"
+                        android:theme="@style/EstiloInputGeneral" />
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_lastnames"
-                        android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
-                        android:inputType="text"
                         android:layout_width="158dp"
                         android:layout_height="wrap_content"
-                        android:hint="Apellidos"/>
+                        android:background="@drawable/textinputrounded"
+                        android:textColor="@color/color_text_input"
+                        android:hint="Apellidos"
+                        android:inputType="text"
+                        android:theme="@style/EstiloInputGeneral" />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -106,7 +108,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_usuario"
                     android:background="@drawable/textinputrounded"
-                    android:textColorHint="@color/black"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="Usuario Nuevo"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content" />
 
@@ -134,6 +138,9 @@
                     android:id="@+id/txt_correo"
                     android:layout_width="321dp"
                     android:background="@drawable/textinputrounded"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="Correo"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
                 />
@@ -162,6 +169,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_password"
                     android:background="@drawable/textinputrounded"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:hint="Contraseña"
+                    android:textColor="@color/color_text_input"
                     android:inputType="textPassword"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content" />
@@ -197,7 +207,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_cp"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
+                        android:textColor="@color/color_text_input"
                         android:hint="CP"
                         android:layout_width="50dp"
                         android:layout_height="wrap_content"
@@ -206,7 +217,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_calle"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
+                        android:textColor="@color/color_text_input"
                         android:inputType="text"
                         android:layout_width="150dp"
                         android:layout_marginRight="10dp"
@@ -216,7 +228,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_municipio"
                         android:background="@drawable/textinputrounded"
-                        android:textColorHint="@color/black"
+                        android:theme="@style/EstiloInputGeneral"
+                        android:textColor="@color/color_text_input"
                         android:inputType="text"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
@@ -246,7 +259,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_telefono"
                     android:background="@drawable/textinputrounded"
-                    android:textColorHint="@color/black"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="Telefono"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"/>
@@ -274,7 +289,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txt_curp"
                     android:background="@drawable/textinputrounded"
-                    android:textColorHint="@color/black"
+                    android:theme="@style/EstiloInputGeneral"
+                    android:textColor="@color/color_text_input"
+                    android:hint="CURP"
                     android:layout_width="321dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"/>
@@ -300,6 +317,7 @@
                     android:textStyle="bold" />
 
                 <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btn_iniciar_foto"
                     android:background="@drawable/btn_theme"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"

@@ -21,7 +21,7 @@ class SelectPersonActivity : AppCompatActivity() {
         }
 
         binding.btnChofer.setOnClickListener {
-            startActivity(Intent(this,ChoferLoguinActivity::class.java))
+            startActivity(Intent(this,ChoferLoginActivity::class.java))
         }
     }
 
